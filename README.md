@@ -41,3 +41,7 @@ php artisan optimize
 ## Dış servisler
 
 `.env` içinde Apify token/webhook secret, YouTube API anahtarı, seçilen Gemini veya OpenAI anahtarı, Stripe anahtarları ve SMTP değerlerini girin. Kart verisi uygulamada tutulmaz. PageSpeed isteğe bağlıdır.
+
+## Doğrudan MySQL kurulumu
+
+Artisan çalıştırılamayan kısıtlı cPanel ortamlarında `database/mysql/README.md` içindeki MySQL 8 kurulum dosyaları sırayla içe aktarılabilir. Normal kurulumlarda migrationlar kaynak gerçekliğidir; SQL dump ile migration yolunu aynı veritabanında birlikte kullanmayın.
