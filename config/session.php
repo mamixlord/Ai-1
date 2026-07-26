@@ -1,0 +1,2 @@
+<?php
+return ['driver'=>env('SESSION_DRIVER','database'),'lifetime'=>(int)env('SESSION_LIFETIME',120),'encrypt'=>(bool)env('SESSION_ENCRYPT',true),'files'=>storage_path('framework/sessions'),'connection'=>null,'table'=>'sessions','store'=>null,'lottery'=>[2,100],'cookie'=>env('SESSION_COOKIE','rekabet_session'),'path'=>'/','domain'=>null,'secure'=>env('SESSION_SECURE_COOKIE',true),'http_only'=>true,'same_site'=>env('SESSION_SAME_SITE','lax'),'partitioned'=>false];
