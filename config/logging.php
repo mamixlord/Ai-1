@@ -1,0 +1,2 @@
+<?php
+return ['default'=>env('LOG_CHANNEL','daily'),'channels'=>['daily'=>['driver'=>'daily','path'=>storage_path('logs/laravel.log'),'level'=>env('LOG_LEVEL','warning'),'days'=>14,'replace_placeholders'=>true],'stderr'=>['driver'=>'monolog','handler'=>Monolog\Handler\StreamHandler::class,'with'=>['stream'=>'php://stderr'],'level'=>env('LOG_LEVEL','warning')]]];

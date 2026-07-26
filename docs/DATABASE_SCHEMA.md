@@ -1,0 +1,3 @@
+# Veritabanı şeması
+
+Kimlik: `users`, `organizations`, `organization_user`, rol/izin ve session tabloları. Ticaret: `products`, `plans`, `plan_entitlements`, snapshot içeren `subscriptions`, dönemler, payments/webhooks/refunds/topups. Finans: platform ve tür bazlı `credit_wallets`, değiştirilemez `credit_ledger`, rezervasyonlar ve usage events. Analiz: projects/competitors/sources, Apify runs, jobs, website snapshot/change, normalize social content/metrics/comments. AI ve sunum: providers/models/usage/analyses, evidence, recommendations, reports, alerts. Audit/security tabloları tenant indekslidir. Büyük koleksiyonlar organizasyon-durum-zaman bileşik indeksini kullanır.

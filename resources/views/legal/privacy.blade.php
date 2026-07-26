@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Gizlilik Politikası') @section('content')<h1>Gizlilik ve KVKK</h1><p>Veriler yalnızca hizmetin sunulması, güvenliği ve yasal yükümlülükler için işlenir. Dışa aktarma ve silme talepleri hesap ayarlarından iletilebilir.</p>@endsection
